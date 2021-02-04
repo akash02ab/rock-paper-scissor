@@ -1,0 +1,21 @@
+{
+  "name": "rockpaperscissor",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "akash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^8.2.3",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.13",
+    "readline-sync": "^1.4.10",
+    "socket.io": "^3.0.4",
+    "socket.io-client": "^3.0.4"
+  }
+}
